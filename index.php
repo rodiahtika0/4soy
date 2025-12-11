@@ -1073,7 +1073,6 @@ function sendMessageToTelegram($token, $chat_id, $message) {
     $data = array(
         'chat_id' => $chat_id,
         'text' => $message
-        'parse_mode' => 'HTML'
     );
 
     $options = array(
